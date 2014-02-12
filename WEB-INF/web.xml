@@ -1,0 +1,1004 @@
+<web-app>
+
+     <session-config>
+     <session-timeout>5</session-timeout>
+     </session-config>
+     <servlet>
+          <servlet-name>Login</servlet-name>
+          <servlet-class>LoginServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>Login</servlet-name>
+          <url-pattern>/login</url-pattern>
+      </servlet-mapping>
+
+     <servlet>
+          <servlet-name>ChangePassword</servlet-name>
+          <servlet-class>ChangePasswordServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>ChangePassword</servlet-name>
+          <url-pattern>/changePassword</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>Header</servlet-name>
+          <servlet-class>HeaderServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>Header</servlet-name>
+          <url-pattern>/header</url-pattern>
+      </servlet-mapping>
+       
+      <servlet>
+          <servlet-name>Footer</servlet-name>
+          <servlet-class>FooterServlet </servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>Footer</servlet-name>
+          <url-pattern>/footer</url-pattern>
+      </servlet-mapping>
+
+
+
+
+   
+   <servlet>    
+   <servlet-name>CreateUser1</servlet-name> 
+  <servlet-class>CreateUserServlet1</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>CreateUser1</servlet-name> 
+  <url-pattern>/createUser1</url-pattern> 
+  </servlet-mapping>
+
+<servlet>    
+   <servlet-name>CreateUser</servlet-name> 
+  <servlet-class>CreateUserServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>CreateUser</servlet-name> 
+  <url-pattern>/createUser</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>UpdateUser</servlet-name> 
+  <servlet-class>UpdateUserServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateUser</servlet-name> 
+  <url-pattern>/updateUser</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>UpdateUser1</servlet-name> 
+  <servlet-class>UpdateUserServlet1</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateUser1</servlet-name> 
+  <url-pattern>/updateUser1</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>UpdateUser2</servlet-name> 
+  <servlet-class>UpdateUserServlet2</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateUser2</servlet-name> 
+  <url-pattern>/updateUser2</url-pattern> 
+  </servlet-mapping>
+
+
+ <servlet>
+<servlet-name>ViewUser</servlet-name> 
+  <servlet-class>ViewUserServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>ViewUser</servlet-name> 
+  <url-pattern>/viewUser</url-pattern> 
+  </servlet-mapping>
+
+
+ <servlet>
+<servlet-name>ViewUser1</servlet-name> 
+  <servlet-class>ViewUserServlet1</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>ViewUser1</servlet-name> 
+  <url-pattern>/viewUser1</url-pattern> 
+  </servlet-mapping>
+
+
+
+ <servlet>
+<servlet-name>DeleteUser</servlet-name> 
+  <servlet-class>DeleteUserServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>DeleteUser</servlet-name> 
+  <url-pattern>/deleteUser</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>CreateProject</servlet-name> 
+  <servlet-class>CreateProjectServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>CreateProject</servlet-name> 
+  <url-pattern>/createProjectDetails</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>CreateProject1</servlet-name> 
+  <servlet-class>CreateProjectServlet1</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>CreateProject1</servlet-name> 
+  <url-pattern>/createProjectDetails1</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>UpdateProject</servlet-name> 
+  <servlet-class>UpdateProjectServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateProject</servlet-name> 
+  <url-pattern>/updateProject</url-pattern> 
+  </servlet-mapping>
+ <servlet>
+<servlet-name>UpdateProject1</servlet-name> 
+  <servlet-class>UpdateProjectServlet1</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateProject1</servlet-name> 
+  <url-pattern>/updateProject1</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>UpdateProject2</servlet-name> 
+  <servlet-class>UpdateProjectServlet2</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateProject2</servlet-name> 
+  <url-pattern>/updateProject2</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>ViewProject</servlet-name> 
+  <servlet-class>ViewProjectServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>ViewProject</servlet-name> 
+  <url-pattern>/viewProject</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>ViewProject1</servlet-name> 
+  <servlet-class>ViewProjectServlet1</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>ViewProject1</servlet-name> 
+  <url-pattern>/viewProject1</url-pattern> 
+  </servlet-mapping>
+
+
+ <servlet>
+<servlet-name>DeleteProject</servlet-name> 
+  <servlet-class>DeleteProjectServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>DeleteProject</servlet-name> 
+  <url-pattern>/deleteProject</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+<servlet-name>projectAssignment</servlet-name>
+<servlet-class>ProjectAssignmentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>projectAssignment</servlet-name>
+<url-pattern>/projectAssignmentDetails</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>projectAssignment1</servlet-name>
+<servlet-class>ProjectAssignmentServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>projectAssignment1</servlet-name>
+<url-pattern>/projectAssignmentDetails1</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+ <servlet>
+<servlet-name>UpdateProjectAssignment</servlet-name> 
+  <servlet-class>UpdateProjectAssignmentServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateProjectAssignment</servlet-name> 
+  <url-pattern>/updateProjectAssignment</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>UpdateProjectAssignment1</servlet-name> 
+  <servlet-class>UpdateProjectAssignmentServlet1</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateProjectAssignment1</servlet-name> 
+  <url-pattern>/updateProjectAssignment1</url-pattern> 
+  </servlet-mapping>
+
+ <servlet>
+<servlet-name>UpdateProjectAssignment2</servlet-name> 
+  <servlet-class>UpdateProjectAssignmentServlet2</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>UpdateProjectAssignment2</servlet-name> 
+  <url-pattern>/updateProjectAssignment2</url-pattern> 
+  </servlet-mapping>
+
+<servlet>
+<servlet-name>ViewProjectAssignment</servlet-name> 
+  <servlet-class>ViewProjectAssignmentServlet</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>ViewProjectAssignment</servlet-name> 
+  <url-pattern>/viewProjectAssignment</url-pattern> 
+  </servlet-mapping>
+
+
+<servlet>
+<servlet-name>ViewProjectAssignment1</servlet-name> 
+  <servlet-class>ViewProjectAssignmentServlet1</servlet-class> 
+  </servlet>
+ <servlet-mapping>
+  <servlet-name>ViewProjectAssignment1</servlet-name> 
+  <url-pattern>/viewProjectAssignment1</url-pattern> 
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+      
+      <servlet>
+          <servlet-name>ManagerLogin</servlet-name>
+          <servlet-class>ManagerLoginServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>ManagerLogin</servlet-name>
+          <url-pattern>/managerLogin</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>Admin</servlet-name>
+          <servlet-class>AdministratorServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>Admin</servlet-name>
+          <url-pattern>/Administrator</url-pattern>
+      </servlet-mapping>
+
+      
+
+  
+
+    <servlet>
+          <servlet-name>TestManager</servlet-name>
+          <servlet-class>TestManagerServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>TestManager</servlet-name>
+          <url-pattern>/TestManager</url-pattern>
+      </servlet-mapping>
+
+     <servlet>
+          <servlet-name>CreatePhase</servlet-name>
+          <servlet-class>CreateTestPhaseServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>CreatePhase</servlet-name>
+          <url-pattern>/createTestPhase</url-pattern>
+      </servlet-mapping>
+ 
+      <servlet>
+          <servlet-name>ViewPhase</servlet-name>
+          <servlet-class>ViewTestPhaseServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>ViewPhase</servlet-name>
+          <url-pattern>/viewTestPhase</url-pattern>
+      </servlet-mapping>
+
+<servlet>
+          <servlet-name>ViewPhase1</servlet-name>
+          <servlet-class>ViewTestPhaseServlet1</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>ViewPhase1</servlet-name>
+          <url-pattern>/viewTestPhase1</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>UpdateTestPhaseServlet2</servlet-name>
+          <servlet-class>UpdateTestPhaseServlet2</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdateTestPhaseServlet2</servlet-name>
+          <url-pattern>/updateTestPhase2</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>UpdateTestPhaseServlet1</servlet-name>
+          <servlet-class>UpdateTestPhaseServlet1</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdateTestPhaseServlet1</servlet-name>
+          <url-pattern>/updateTestPhase1</url-pattern>
+      </servlet-mapping>
+
+      
+
+      <servlet>
+          <servlet-name>UpdatePhase</servlet-name>
+          <servlet-class>UpdateTestPhaseServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdatePhase</servlet-name>
+          <url-pattern>/updateTestPhase</url-pattern>
+      </servlet-mapping>
+
+     <servlet>
+          <servlet-name>DeletePhase</servlet-name>
+          <servlet-class>DeleteTestPhaseServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>DeletePhase</servlet-name>
+          <url-pattern>/deleteTestPhase</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>CreateActivity</servlet-name>
+          <servlet-class>CreateTestActivityServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>CreateActivity</servlet-name>
+          <url-pattern>/createTestActivity</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>ViewActivity</servlet-name>
+          <servlet-class>ViewTestActivityServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>ViewActivity</servlet-name>
+          <url-pattern>/viewTestActivity</url-pattern>
+      </servlet-mapping>
+  
+<servlet>
+          <servlet-name>ViewActivity1</servlet-name>
+          <servlet-class>ViewTestActivityServlet1</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>ViewActivity1</servlet-name>
+          <url-pattern>/viewTestActivity1</url-pattern>
+      </servlet-mapping>
+      <servlet>
+          <servlet-name>UpdateActivity</servlet-name>
+          <servlet-class>UpdateTestActivityServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdateActivity</servlet-name>
+          <url-pattern>/updateTestActivity</url-pattern>
+      </servlet-mapping>
+   
+      <servlet>
+          <servlet-name>UpdateActivity1</servlet-name>
+          <servlet-class>UpdateTestActivityServlet1</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdateActivity1</servlet-name>
+          <url-pattern>/updateTestActivity1</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>UpdateActivity2</servlet-name>
+          <servlet-class>UpdateTestActivityServlet2</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdateActivity2</servlet-name>
+          <url-pattern>/updateTestActivity2</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>DeleteActivity</servlet-name>
+          <servlet-class>DeleteTestActivityServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>DeleteActivity</servlet-name>
+          <url-pattern>/deleteTestActivity</url-pattern>
+      </servlet-mapping>
+
+
+
+      <servlet>
+          <servlet-name>DeleteActivity1</servlet-name>
+          <servlet-class>DeleteTestActivityServlet1</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>DeleteActivity1</servlet-name>
+          <url-pattern>/deleteTestActivity1</url-pattern>
+      </servlet-mapping>
+      <servlet>
+          <servlet-name>Activity Assignment</servlet-name>
+          <servlet-class>ActivityAssignmentServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>Activity Assignment</servlet-name>
+          <url-pattern>/assignTestActivity</url-pattern>
+      </servlet-mapping>
+     
+        <servlet>
+          <servlet-name>ViewActivityAssignment</servlet-name>
+          <servlet-class>ViewActivityAssignmentServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>ViewActivityAssignment</servlet-name>
+          <url-pattern>/viewActivityAssignment</url-pattern>
+      </servlet-mapping>
+
+
+ <servlet>
+          <servlet-name>ViewActivityAssignment1</servlet-name>
+          <servlet-class>ViewActivityAssignmentServlet1</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>ViewActivityAssignment1</servlet-name>
+          <url-pattern>/viewActivityAssignment1</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>UpdateActivityAssignment3</servlet-name>
+          <servlet-class>UpdateActivityAssignmentServlet3</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdateActivityAssignment3</servlet-name>
+          <url-pattern>/updateActivityAssignment3</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>UpdateActivityAssignment1</servlet-name>
+          <servlet-class>UpdateActivityAssignmentServlet1</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdateActivityAssignment1</servlet-name>
+          <url-pattern>/updateActivityAssignment1</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>UpdateActivityAssignment2</servlet-name>
+          <servlet-class>UpdateActivityAssignmentServlet2</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>UpdateActivityAssignment2</servlet-name>
+          <url-pattern>/updateActivityAssignment2</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>CloseActivity1</servlet-name>
+          <servlet-class>CloseTestActivityServlet1</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>CloseActivity1</servlet-name>
+          <url-pattern>/closeTestActivity1</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>CloseActivity2</servlet-name>
+          <servlet-class>CloseTestActivityServlet2</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>CloseActivity2</servlet-name>
+          <url-pattern>/closeTestActivity2</url-pattern>
+      </servlet-mapping>
+
+      <servlet>
+          <servlet-name>Tester</servlet-name>
+          <servlet-class>TesterServlet</servlet-class>
+      </servlet>
+      <servlet-mapping>
+          <servlet-name>Tester</servlet-name>
+          <url-pattern>/Tester</url-pattern>
+      </servlet-mapping>
+
+
+<servlet>
+<servlet-name>CreateTestcase</servlet-name>
+<servlet-class>CreateTestCaseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>CreateTestcase</servlet-name>
+<url-pattern>/createTestcase</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>ViewTestcase</servlet-name>
+<servlet-class>ViewTestCaseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ViewTestcase</servlet-name>
+<url-pattern>/viewTestcase</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>ViewTestcase1</servlet-name>
+<servlet-class>ViewTestCaseServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ViewTestcase1</servlet-name>
+<url-pattern>/viewTestcase1</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>UpdateTestcase</servlet-name>
+<servlet-class>UpdateTestCaseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateTestcase</servlet-name>
+<url-pattern>/updateTestcase</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>DeleteTestcase</servlet-name>
+<servlet-class>DeleteTestCaseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteTestcase</servlet-name>
+<url-pattern>/deleteTestcase</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>AddTestcaseExecution</servlet-name>
+<servlet-class>AddTestCaseExeDetailsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AddTestcaseExecution</servlet-name>
+<url-pattern>/addTestCaseExecution</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+<servlet-name>ViewTestcaseExecution</servlet-name>
+<servlet-class>ViewTestCaseExeDetailsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ViewTestcaseExecution</servlet-name>
+<url-pattern>/viewTestCaseExecution</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>ViewTestcaseExecution1</servlet-name>
+<servlet-class>ViewTestCaseExeDetailsServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ViewTestcaseExecution1</servlet-name>
+<url-pattern>/viewTestCaseExecution1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>UpdateTestcaseExecution1</servlet-name>
+<servlet-class>UpdateTestCaseExeDetailsServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateTestcaseExecution1</servlet-name>
+<url-pattern>/updateTestCaseExecution1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>UpdateTestcaseExecution2</servlet-name>
+<servlet-class>UpdateTestCaseExeDetailsServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateTestcaseExecution2</servlet-name>
+<url-pattern>/updateTestCaseExecution2</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>UpdateTestcaseExecution3</servlet-name>
+<servlet-class>UpdateTestCaseExeDetailsServlet3</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateTestcaseExecution3</servlet-name>
+<url-pattern>/updateTestCaseExecution3</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>AddTestActivityEffort</servlet-name>
+<servlet-class>AddTestActivityEffortServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AddTestActivityEffort</servlet-name>
+<url-pattern>/addTestActivityEffort</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>ViewTestActivityEffort</servlet-name>
+<servlet-class>ViewTestActivityEffortServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ViewTestActivityEffort</servlet-name>
+<url-pattern>/viewTestActivityEffort</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>ViewTestActivityEffort1</servlet-name>
+<servlet-class>ViewTestActivityEffortServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ViewTestActivityEffort1</servlet-name>
+<url-pattern>/viewTestActivityEffort1</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+<servlet>
+<servlet-name>UpdateTestActivityEffort</servlet-name>
+<servlet-class>UpdateTestActivityEffortServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateTestActivityEffort</servlet-name>
+<url-pattern>/updateTestActivityEffort</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>UpdateTestActivityEffort1</servlet-name>
+<servlet-class>UpdateTestActivityEffortServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateTestActivityEffort1</servlet-name>
+<url-pattern>/updateTestActivityEffort1</url-pattern>
+</servlet-mapping>
+
+
+
+        <servlet>
+                  <servlet-name>TesterEfort</servlet-name>
+                  <servlet-class>TesterEffortServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                  <servlet-name>TesterEfort</servlet-name>
+                  <url-pattern>/TesterEfort</url-pattern>
+        </servlet-mapping>
+
+
+      <servlet>
+                 <servlet-name>TesterEffortInclude</servlet-name>
+                  <servlet-class>TesterEffortIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterEffortInclude</servlet-name>
+                  <url-pattern>/TesterEffortInclude</url-pattern>
+        </servlet-mapping>
+
+
+
+
+
+
+   <servlet>
+                 <servlet-name>ActivityEffort</servlet-name>
+                  <servlet-class>ActivityEffortServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityEffort</servlet-name>
+                  <url-pattern>/ActivityEffort</url-pattern>
+        </servlet-mapping>
+
+
+
+<servlet>
+                 <servlet-name>ActivityIncludeEffort</servlet-name>
+                  <servlet-class>ActivityEffortIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityIncludeEffort</servlet-name>
+                  <url-pattern>/ActivityIncludeEffort</url-pattern>
+        </servlet-mapping>
+
+
+
+<servlet>
+                 <servlet-name>PhaseEffort</servlet-name>
+                  <servlet-class>PhaseEffortServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>PhaseEffort</servlet-name>
+                  <url-pattern>/PhaseEffort</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>PhaseIncludeEffort</servlet-name>
+                  <servlet-class>PhaseEffortIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>PhaseIncludeEffort</servlet-name>
+                  <url-pattern>/PhaseIncludeEffort</url-pattern>
+        </servlet-mapping>
+
+
+
+<servlet>
+                 <servlet-name>ProjectEffort</servlet-name>
+                  <servlet-class>ProjectEffortServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ProjectEffort</servlet-name>
+                  <url-pattern>/ProjectEffort</url-pattern>
+        </servlet-mapping>
+
+
+
+<servlet>
+                 <servlet-name>ProjectIncludeEffort</servlet-name>
+                  <servlet-class>ProjectEffortIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ProjectIncludeEffort</servlet-name>
+                  <url-pattern>/ProjectEffortInclude</url-pattern>
+        </servlet-mapping>
+
+
+
+
+<servlet>
+                 <servlet-name>TesterTestCases</servlet-name>
+                  <servlet-class>TesterTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterTestCases</servlet-name>
+                  <url-pattern>/TesterTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>TesterTestCasesInclude</servlet-name>
+                  <servlet-class>TesterTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterTestCasesInclude</servlet-name>
+                  <url-pattern>/TesterTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+
+
+
+<servlet>
+                 <servlet-name>TesterFailedTestCases</servlet-name>
+                  <servlet-class>TesterFailedTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterFailedTestCases</servlet-name>
+                  <url-pattern>/TesterFailedTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>TesterFailedTestCasesInclude</servlet-name>
+                  <servlet-class>TesterFailedTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterFailedTestCasesInclude</servlet-name>
+                  <url-pattern>/TesterFailedTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+
+
+<servlet>
+                 <servlet-name>TesterPassedTestCases</servlet-name>
+                  <servlet-class>TesterPassedTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterPassedTestCases</servlet-name>
+                  <url-pattern>/TesterPassedTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>TesterPassedTestCasesInclude</servlet-name>
+                  <servlet-class>TesterPassedTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterPassedTestCasesInclude</servlet-name>
+                  <url-pattern>/TesterPassedTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+
+
+
+
+
+<servlet>
+                 <servlet-name>ActivityFailedTestCases</servlet-name>
+                  <servlet-class>ActivityFailedTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityFailedTestCases</servlet-name>
+                  <url-pattern>/ActivityFailedTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>ActivityFailedTestCasesInclude</servlet-name>
+                  <servlet-class>ActivityFailedTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityFailedTestCasesInclude</servlet-name>
+                  <url-pattern>/ActivityFailedTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>TesterExecutionTestCases</servlet-name>
+                  <servlet-class>TesterExecutionTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterExecutionTestCases</servlet-name>
+                  <url-pattern>/TesterExecutionTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>TesterExecutionTestCasesInclude</servlet-name>
+                  <servlet-class>TesterExecutionTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterExecutionTestCasesInclude</servlet-name>
+                  <url-pattern>/TesterExecutionTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>ActivityExecutionTestCases</servlet-name>
+                  <servlet-class>ActivityExecutionTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityExecutionTestCases</servlet-name>
+                  <url-pattern>/ActivityExecutionTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>ActivityExecutionInclude</servlet-name>
+                  <servlet-class>ActivityExecutionTestCasesIncludeServlet </servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityExecutionInclude</servlet-name>
+                  <url-pattern>/ActivityExecutionTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>ActivityPassedTestCases</servlet-name>
+                  <servlet-class>ActivityPassedTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityPassedTestCases</servlet-name>
+                  <url-pattern>/ActivityPassedTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>ActivityPassedTestCasesInclude</servlet-name>
+                  <servlet-class>ActivityPassedTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityPassedTestCasesInclude</servlet-name>
+                  <url-pattern>/ActivityPassedTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>ActivityTestCases</servlet-name>
+                  <servlet-class>ActivityTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityTestCases</servlet-name>
+                  <url-pattern>/ActivityTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>ActivityTestCasesInclude</servlet-name>
+                  <servlet-class>ActivityTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityTestCasesInclude</servlet-name>
+                  <url-pattern>/ActivityTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+
+
+<servlet>
+                 <servlet-name>ActivityNonExcecutiontestcases</servlet-name>
+                  <servlet-class>ActivityNonExecutionTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityNonExcecutiontestcases</servlet-name>
+                  <url-pattern>/ActivityNonExcecutiontestcases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>ActivityNonExcecutiontestcasesInclude</servlet-name>
+                  <servlet-class>ActivityNonExecutionTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>ActivityNonExcecutiontestcasesInclude</servlet-name>
+                  <url-pattern>/ActivityNonExcecutiontestcasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>TesterNonExecutionTestCases</servlet-name>
+                  <servlet-class>TesterNonExecutionTestCasesServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterNonExecutionTestCases</servlet-name>
+                  <url-pattern>/TesterNonExecutionTestCases</url-pattern>
+        </servlet-mapping>
+
+
+<servlet>
+                 <servlet-name>TesterNonExecutionTestCasesInclude</servlet-name>
+                  <servlet-class>TesterNonExecutionTestCasesIncludeServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+                  <servlet-name>TesterNonExecutionTestCasesInclude</servlet-name>
+                  <url-pattern>/TesterNonExecutionTestCasesInclude</url-pattern>
+        </servlet-mapping>
+
+
+
+<servlet>
+<servlet-name>View</servlet-name>
+<servlet-class>ViewTestCaseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>View</servlet-name>
+<url-pattern>/view</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>update</servlet-name>
+<servlet-class>UpdateTestCaseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>update</servlet-name>
+<url-pattern>/update</url-pattern>
+</servlet-mapping>
+
+</web-app>
